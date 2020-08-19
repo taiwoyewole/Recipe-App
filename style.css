@@ -43,8 +43,16 @@ body {
 .card {
     box-shadow: 0px 1px 19px 0px #000;
 }
+.pizza{
+    height: 48%!important;
+}
+
+.second-col {
+    height: 85%!important;
+}
 .medium-sized {
     display: none;
+  
 }
 .first-set-icon {
     color: #de8b23;
@@ -91,6 +99,10 @@ and (max-width: 999px) {
     .medium-sized {
         display: block ;
     }
+    .medium-sized .card {
+        height: 566px;
+    }
+   
 }
 @media only screen and (max-width: 500px) {
     #pizza img {
