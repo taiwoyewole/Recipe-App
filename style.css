@@ -43,6 +43,9 @@ body {
 .card {
     box-shadow: 0px 1px 19px 0px #000;
 }
+.medium-sized {
+    display: none;
+}
 .first-set-icon {
     color: #de8b23;
 }
@@ -74,4 +77,27 @@ header {
 }
 h5 {
     color: #f1c549;;
+}
+.add {
+    background: #f1c549;
+    color: #fff;
+    border-radius: 50px;
+}
+@media only screen and (min-width: 600px)
+and (max-width: 999px) {
+    .large-screen {
+        display: none;
+    }
+    .medium-sized {
+        display: block ;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #pizza img {
+        margin: auto;
+        display: block;
+    }
+    .sub-sec p {
+        margin-top: 0 !important;
+    }
 }
