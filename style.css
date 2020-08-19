@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #2196F3;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+.header {
+    font-family: 'Do Hyeon', sans-serif;
+    color: #094d05;
+    font-size: 50px;
+}
+#home p {
+    font-size: 20px;
+}
+.has-search .form-control {
+    padding-left: 2rem;
+    border-radius: 5px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    right: 27px;
+    bottom: 50px;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #000;
+}
+
+.search::placeholder {
+    color: #000;
+}
+.sub-head span {
+    color: #ecde31;
+    font-style: italic;
+}
+.card {
+    box-shadow: 0px 1px 19px 0px #000;
+}
+.first-set-icon {
+    color: #de8b23;
+}
+.second-set-icon {
+    color: gray;
+}
+.btn {
+   background-color:  #608057;
+   color: #fff;
+}
+.btn:hover {
+    color: yellow;
+    box-shadow: 0px 0px 20px 2px yellow;
+}
+/* #pizza {
+    background: #fff;
+} */
+.sub-sec {
+    background: #edeff1;
+    border-radius: 20px;
+}
+
+header {
+    background:#2196F3;
+    color: #fff;
+}
+.fa-arrow-left {
+    color: white;
+}
+h5 {
+    color: #f1c549;;
+}
