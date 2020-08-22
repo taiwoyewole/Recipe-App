@@ -17,7 +17,7 @@ const load = (data) => {
    card += `
      <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-5">
         <div class="card h-100 recipe-card">
-            <img class="card-img-top img-fluid h-50 recipe-image" src="/assets/images/pizza.jpg" alt="Card image">
+            <img class="card-img-top img-fluid recipe-image" src="/assets/images/pizza.jpg" alt="Card image">
             <div class="card-body">
                 <h4 class="card-title font-weight-bold recipe-title">${element.title}</h4>
                 <p class="card-text recipe-description">${element.instructions}</p>
