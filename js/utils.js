@@ -34,7 +34,10 @@ const load = (data) => {
      recipeGallery.innerHTML += card;
   });
 };
-//  const formSubmit = (event) => {
-//      event.preventDefault()
-//     return 
-//  }
+ const formSubmit = () => {
+  const recipeTitle = document.getElementById("title").value;
+  console.log(recipeTitle);
+    
+    // return 
+ }
+ formSubmit();

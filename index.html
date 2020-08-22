@@ -16,18 +16,33 @@
     <div class="container">
         <section id="home">
             <div class="container">
+
                 <div class="row mt-5">
                     <div class="col-12">
                         <h1 class="header text-center font-weight-bolder">The Recipe <span>'s</span> Corner</h1>
                         <p class="text-center font-weight-bold">What do you want to eat today?</p>
-                        <!-- Actual search box -->
-                        <div class="form-group input-group-lg my-5 has-search">
+                    </div>
+                    <div class="col-8">
+                        <div class="form-group input-group-lg has-search">
                             <input type="text" class="form-control search" placeholder="Search for your favorite Recipe">
                             <span class="fa fa-search form-control-feedback"></span>
-                            <button class="btn btn-primary btn-lg get my-4">Get recipes</button>
                         </div>
                     </div>
+                    <div class="col-4">
+                        <div class="d-flex align-items-end">
+                            
+                                <div class="form-group px-2">
+                                    <button class="btn btn-primary btn-lg get">Get recipes</button>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-primary btn-lg add-1" data-toggle="modal" data-target="#exampleModal">Add recipes</button>
+                                </div>
+                            
+                        </div>
+                       
+                    </div>
                 </div>
+
             </div>
         </section>
         <section id="recipe">
@@ -38,161 +53,73 @@
                         <p>Check out our amazing dishes and pastries with their recipes</p>
                     </div>
                 </div>
-                <div class="row recipe-gallery">
-                    <!-- <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-5">
-                        <div class="card h-100 recipe-card">
-                            <img class="card-img-top img-fluid h-50 recipe-image" src="/assets/images/pizza.jpg" alt="Card image">
-                            <div class="card-body">
-                              <h4 class="card-title font-weight-bold recipe-title">Pizza</h4>
-                              <p class="card-text recipe-description">Classic homemade pizza recipe, including pizza dough and toppings, step-by-step process.  Make perfect pizza at home!</p>
-                              
-                              <div class="card-text pb-2 star-icon">
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a>
-                                 <p class="second-set-icon d-inline small recipe-ratings">(2.3)</p>
-                             </div>
-                             <a href="/pizza.html" class="btn mt-3">View Recipe</a>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-5">
-                        <div class="card h-100">
-                            <img class="card-img-top img-fluid h-50" src="/assets/images/5-2-burger-png.png" alt="Card image">
-                            <div class="card-body">
-                              <h4 class="card-title font-weight-bold">Burger</h4>
-                              <p> This home-made beef burger recipe gives you delicious patties, packed with onions and other essentials for that delicious bite </p>
-                              
-                              <div class="card-text pb-2 star-icon">
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                 <a href=""><i class="second-set-icon small fas fa-star"></i></a>
-                                 <a href=""><i class="second-set-icon small fas fa-star"></i></a>
-                                 <p class="second-set-icon d-inline small">(2.3)</p>
-                             </div>
-                              <a href="/burger..html" class="btn mt-3">View Recipe</a>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-5">
-                        <div class="card h-100">
-                            <img class="card-img-top img-fluid h-50" src="/assets/images/sandwich2.webp" alt="Card image">
-                            <div class="card-body">
-                              <h4 class="card-title font-weight-bold">Sandwich</h4>
-                              <p>This is the juncture where simple meets delicious. Stop skipping breakfast. Make a simple 3-layered sandwich for breakfast. </p>
-                              <div class="card-text pb-2 star-icon">
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                 <a href=""><i class="second-set-icon small fas fa-star"></i></a>
-                                 <a href=""><i class="second-set-icon small fas fa-star"></i></a>
-                                 <p class="second-set-icon d-inline small">(2.3)</p>
-                             </div>
-                             <a href="/sandwich.html" class="btn mt-3">View Recipe</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 medium-sized my-5">
-                        <div class="card">
-                            <img class="card-img-top img-fluid h-50" src="/assets/images/vanilla-cake.jpg" alt="Card image">
-                            <div class="card-body">
-                              <h4 class="card-title font-weight-bold">Simple Vanilla Cake</h4>
-                              <p>You think baking a cake is hard. Let's see how you can make a soft and yummy vanilla cake.
-                                Check out the recipe to bake the best cake ever.
-                            </p>
-                              <div class="card-text pb-2 star-icon">
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                 <a href=""><i class="second-set-icon small fas fa-star"></i></a>
-                                 <a href=""><i class="second-set-icon small fas fa-star"></i></a>
-                                 <p class="second-set-icon d-inline small">(2.3)</p>
-                             </div>
-                             <a href="/sandwich.html" class="btn mt-3">View Recipe</a>
-                            </div>
-                        </div>
-                    </div> -->
-                    
+                <div class="row recipe-gallery"> 
                 </div>
-                    <div class="row">
-                        <div class="col-12">
-                        <div class="form-group input-group-lg my-5 has-search">
-                            <input type="text" class="form-control search mb-5" placeholder="Add more recipes">
-                            <input type="text" class="form-control search" placeholder="url">
-                        </div>
-                            <div class="form-group">
-                                <button class="btn btn-primary btn-lg add">Add recipes</button>
-                                <button class="btn btn-primary btn-lg float-right">Delete recipes</button>
-                            </div>
-                        </div>
-                        <div class="col-6 my-5">
-                            <!-- <div class="form-group"> -->
-                                <button class="btn btn-primary btn-lg get mr-4">Get recipes</button>
-                                <!-- <button class="btn btn-primary btn-lg">Remove recipes</button> -->
-                            </div>
-                        <!-- </div> -->
-                    </div>
-                <!-- <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-5">
-                        <div class="card h-100">
-                            <img class="card-img-top img-fluid h-50" src="/assets/images/vanilla-cake.jpg" alt="Card image">
-                            <div class="card-body">
-                              <h4 class="card-title font-weight-bold">Simple Vanilla Cake</h4>
-                              <p>You think baking a cake is hard. Let's see how you can make a soft and yummy vanilla cake.
-                                Check out the recipe to bake the best cake ever.
-                            </p>
-                              <div class="card-text pb-2 star-icon">
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                 <a href=""><i class="second-set-icon small fas fa-star"></i></a>
-                                 <a href=""><i class="second-set-icon small fas fa-star"></i></a>
-                                 <p class="second-set-icon d-inline small">(2.3)</p>
-                             </div>
-                             <a href="/sandwich.html" class="btn mt-3">View Recipe</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-5">
-                        <div class="card second-col">
-                            <img class="card-img-top img-fluid h-50" src="/assets/images/cookie.jpg" alt="Card image">
-                            <div class="card-body">
-                              <h4 class="card-title font-weight-bold">Milk cookies</h4>
-                              <p>Milk Cookies is a lip-smacking cookie recipe that is loaded with the intense flavors of condensed milk, butter and caster sugar.
-                                 Check out the recipe. </p>
-                              <div class="card-text pb-2 star-icon">
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                 <a href=""><i class="second-set-icon small fas fa-star"></i></a>
-                                 <a href=""><i class="second-set-icon small fas fa-star"></i></a>
-                                 <p class="second-set-icon d-inline small">(2.3)</p>
-                             </div>
-                             <a href="/cookies.html" class="btn mt-3">View Recipe</a>
-                            </div>
-                        </div>
-                    </div> 
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-5">
-                        <div class="card second-col">
-                            <img class="card-img-top img-fluid h-50" src="/assets/images/donut.jpg" alt="Card image" style="width:100%">
-                            <div class="card-body">
-                              <h4 class="card-title font-weight-bold">Glazed Donuts</h4>
-                              <p>Glazed donuts is a lip-smacking recipe that is loaded with the intense flavors of butter and caster sugar.
-                                Check out the recipe. </p>
-                              <div class="card-text pb-2 star-icon">
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                <a href=""><i class="first-set-icon small fas fa-star"></i></a> 
-                                 <a href=""><i class="second-set-icon small fas fa-star"></i></a>
-                                 <a href=""><i class="second-set-icon small fas fa-star"></i></a>
-                                 <p class="second-set-icon d-inline small">(2.3)</p>
-                             </div>
-                             <a href="/doughnut.html" class="btn mt-3">View Recipe</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </section>
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form action="">
+        <div class="modal-body">
+            <section id="recipe">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2 class="sub-head">Great Recipes to your <span class="font-weight-bold">Delight!</span></h2>
+                            <!-- <p>Check out our amazing dishes and pastries with their recipes</p> -->
+                        </div>
+                    </div>
+                    <div class="row recipe-gallery"> 
+                    </div>
+                </div>
+            </section>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="title" placeholder="title">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <input type="number" class="form-control" name="rate" placeholder="Rate">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <input type="number" class="form-control" name="time" placeholder="time">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <textarea rows="3" cols="5" class="form-control" name="ingredients">Ingredients should go here
+                        </textarea>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <textarea rows="3" cols="5" class="form-control" name="instruction">Instructions should go here
+                        </textarea>
+                    </div>
+                </div>
+            </div>            
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary add">Add</button>
+        </div>
+    </form>
+      </div>
+    </div>
+  </div>
         
     </div>
 

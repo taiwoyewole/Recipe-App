@@ -1,10 +1,10 @@
 console.log('Hello There: this is working');
 const baseUrl = 'https://calm-retreat-56701.herokuapp.com/api';
-document.querySelector('.add').addEventListener('click',  function (event) {
-    event.preventDefault();
-      createRecipe();  
-    console.log('Create new recipes');
-});
+// document.querySelector('.add').addEventListener('click',  function (event) {
+//     event.preventDefault();
+//       createRecipe();  
+//     console.log('Create new recipes');
+// });
 document.querySelector('.get').addEventListener('click',  function (event) {
     event.preventDefault();
      getAllRecipes(); 

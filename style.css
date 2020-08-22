@@ -95,10 +95,11 @@ header {
 h5 {
     color: #f1c549;;
 }
-.add {
+.add-1 {
     background: #f1c549;
     color: #fff;
-    border-radius: 50px;
+    /* padding-left: 10px !important; */
+    /* border-radius: 50px; */
 }
 @media only screen and (min-width: 600px)
 and (max-width: 999px) {
