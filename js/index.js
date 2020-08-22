@@ -1,4 +1,5 @@
 console.log('Hello There: this is working');
+const baseUrl = 'https://calm-retreat-56701.herokuapp.com/api';
 document.querySelector('.add').addEventListener('click',  function (event) {
     event.preventDefault();
       createRecipe();  
@@ -11,7 +12,7 @@ document.querySelector('.get').addEventListener('click',  function (event) {
 });
 
 const createRecipe = async () => {
-    const url = 'http://localhost:3600/api/recipes'
+    const url = `${baseUrl}/recipes`
     let body = {
         title: "Pizza manga",
         ingredients: `
@@ -37,7 +38,7 @@ const createRecipe = async () => {
 };
 
 const getAllRecipes = async () => {
-    const url = 'http://localhost:3600/api/recipes'
+    const url = `${baseUrl}/recipes`;
     
     const params = {
         headers: { 
@@ -53,7 +54,7 @@ const getAllRecipes = async () => {
 
 
 const getOneRecipes = async (recipeId) => {
-    const url = `http://localhost:3600/api/recipes/${recipeId}`;
+    const url = `${baseUrl}/recipes/${recipeId}`;
     
     const params = {
         headers: { 
